@@ -1,0 +1,52 @@
+@keyframes c {
+    0%{opacity: 0}
+    20%{opacity: 100}
+    100%{opacity: 0}
+}
+@keyframes x {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    100%{opacity: 0}
+}
+@keyframes q{
+    0%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 100}
+    100%{opacity: 0}
+}
+@keyframes d {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
+html,body,page{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+page{
+    font-size: 150px;
+    height: 100%;
+    position: absolute;
+    padding-top: 30%;
+    padding-left: 30%;
+}
+#c{
+    background-color: lightgreen;
+    animation:c 5s infinite;
+}
+#x{
+    background-color: red;
+    animation:x 5s infinite;
+}
+#q{
+    background-color: yellow;
+    animation:q 5s infinite;
+}
+#d{
+    background-color: black;
+    color: white;
+    animation:d 5s infinite;
+}
